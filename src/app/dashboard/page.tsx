@@ -4,6 +4,7 @@
 import Sidebar from "@/components/Sidebar";
 import Navbar from "@/components/Navbar";
 import StatCard from "@/components/StatCard";
+import FilterForm from "@/components/FilterForm";
 import { Users, Clock, CheckCircle, DollarSign, AlertCircle } from "lucide-react";
 
 export default function DashboardPage() {
@@ -15,6 +16,7 @@ export default function DashboardPage() {
         <Navbar />
 
         <main className="p-6 bg-gray-100 space-y-6">
+            <FilterForm />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             <StatCard
               title="Total Employees"
