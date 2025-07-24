@@ -13,7 +13,7 @@ const Sidebar = () => {
 
   return (
     <aside className="w-64 h-screen bg-white shadow-md fixed top-0 left-0 flex flex-col">
-      <div className="text-xl font-bold p-6 border-b">💲 Salary Management</div>
+      <div className="text-xl font-bold p-6 border-b">💲Technuf Salary Management</div>
       <nav className="flex-1 px-4 py-6">
         <ul className="space-y-2">
           {menu.map((item, idx) => (
